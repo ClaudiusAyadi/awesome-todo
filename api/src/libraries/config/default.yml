@@ -1,0 +1,15 @@
+api:
+  name: ${npm_package_name}
+  prefix: ${PREFIX:-/api/v1}
+  version: ${npm_package_version}
+  host: ${HOST:-localhost}
+  port: ${PORT:-8022}
+  client: ${CLIENT:-*}
+
+db:
+  protocol: ${DB_PROTOCOL}
+  host: ${DB_HOST}
+  port: ${DB_PORT:-''}
+  username: ${DB_USERNAME:-''}
+  password: ${DB_PASSWORD:-''}
+  database: ${DB_NAME}
